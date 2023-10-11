@@ -1,0 +1,50 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #111;
+  color: #fff;
+  max-width: 400px;
+  padding: 3rem 1rem;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+
+button {
+    background: #fff;
+    border: none;
+    padding: 0.25rem 0.75rem;
+}
+
+form input {
+    margin: 0 0.5rem;
+    padding: 0.25rem;
+}
+
+form button:hover,
+form button:focus {
+    background: #e0f2fe;
+}
+
+li {
+    list-style: none;
+    padding-top: 0.5rem;
+}
+
+li.done label {
+    text-decoration: line-through;
+}
+
+li label {
+    padding: 0 1rem 0 0.5rem;
+}
+
+li button:hover,
+li button:focus {
+    background: #ffe4e6;
+}
+
